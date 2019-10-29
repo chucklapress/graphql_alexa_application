@@ -1,0 +1,17 @@
+const { ApolloServer, gql } = require('apollo-server');
+
+const typeDefs = gql`
+  type Query {
+    hello: String!
+  }
+`;
+const resolvers = {
+  Query: {
+     hello: () => 'from Graph QL, and Chuck La Press'
+  },
+};
+const server = new ApolloServer({ typeDefs, resolvers });
+
+server.listen().then(({ url }) => {
+ console.log(`🚀 Server ready at ${url}`);
+});
