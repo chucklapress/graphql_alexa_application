@@ -11,7 +11,7 @@ npm init
 ```
 
 ## Usage
-
+** Not to self when changing zip lambda inside gql directory execute new zip with zip -r ../zipname.zip *
 ```node
 node index.js
 ```
