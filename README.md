@@ -11,7 +11,8 @@ npm init
 ```
 
 ## Usage
-** Not to self when changing zip lambda inside gql directory execute new zip with zip -r ../zipname.zip *
+** corrected index not found error from .zipfile by ensuring npm init was run and node_modules were installed inside directory
+
 ```node
 node index.js
 ```
