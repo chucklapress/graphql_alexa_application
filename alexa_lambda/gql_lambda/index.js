@@ -1,5 +1,5 @@
 const { GraphQLClient } = require('graphql-request');
-const GRAPHQL_ENDPOINT = 'https://fcdb4520.ngrok.io';
+const GRAPHQL_ENDPOINT = 'https://c99539d9.ngrok.io';
 const graphQLClient = new GraphQLClient(GRAPHQL_ENDPOINT);
 const helloWorldQuery = `{ hello }`;
 const Alexa = require('ask-sdk-core');
