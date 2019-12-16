@@ -7,7 +7,7 @@ const typeDefs = gql`
 `;
 const resolvers = {
   Query: {
-     hello: () => 'from Graph QL, and Chuck La Press'
+     hello: () => 'Todays fitness popups in your location are. locations brought in by aurora database or dynamodb or elasticsearch index'
   },
 };
 const server = new ApolloServer({ typeDefs, resolvers });
