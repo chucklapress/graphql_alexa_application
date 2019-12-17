@@ -1,5 +1,5 @@
 const { GraphQLClient } = require('graphql-request');
-const GRAPHQL_ENDPOINT = 'https://076f76c4.ngrok.io';
+const GRAPHQL_ENDPOINT = 'https://f607fc96.ngrok.io';
 const graphQLClient = new GraphQLClient(GRAPHQL_ENDPOINT);
 const helloWorldQuery = `{ hello }`;
 const Alexa = require('ask-sdk-core');
@@ -8,7 +8,7 @@ const LaunchRequestHandler = {
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
   },
   handle(handlerInput) {
-    const speechText = 'This is a demo alexa app. Made to demonstrate a connection to a Graph Q L,  A P I end point, yes its cool. You can launch it, Simply by saying hello, or hi';
+    const speechText = 'This is a demo alexa app. Made to demonstrate a connection to a Graph Q L,  A P I end point, yes its cool. You can launch it, Simply by saying hello, or hi, so what is the magic word';
 
     return handlerInput.responseBuilder
       .speak(speechText)

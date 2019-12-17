@@ -7,7 +7,7 @@ const typeDefs = gql`
 `;
 const resolvers = {
   Query: {
-     hello: () => 'Todays fitness popups in your location are. locations brought in by aurora database or dynamodb or elasticsearch index'
+     hello: () => 'Todays fitness popups for your location  .yada yada and yada. these would be data points stored and queryed by an aurora database or dynamo D B  or an elasticsearch index'
   },
 };
 const server = new ApolloServer({ typeDefs, resolvers });
