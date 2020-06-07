@@ -4,7 +4,8 @@ GraphQL demo application for Amazon Alexa
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install required packages.
+Use the package manager [npm](https://www.npmjs.com/) to install required packages
+
 
 ```bash
 npm init
